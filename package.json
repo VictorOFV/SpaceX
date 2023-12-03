@@ -1,0 +1,22 @@
+{
+  "name": "spacex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "sass sass/index.scss public/styles/index.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorOFV/SpaceX.git"
+  },
+  "author": "Victor Manoel Lopes Porto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorOFV/SpaceX/issues"
+  },
+  "homepage": "https://github.com/VictorOFV/SpaceX#readme",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
