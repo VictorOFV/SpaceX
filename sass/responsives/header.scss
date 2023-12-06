@@ -1,0 +1,25 @@
+@media (max-width: 991px) {
+    header {
+        .logo-header {
+            margin-right: 0;
+        }
+        .navbar-toggler {
+            margin-top: 0;
+            padding: 0;
+        }
+
+        .links-navbar {
+            margin-top: 2.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 285px) {
+    header {
+        .logo-header {
+            width: 10rem;
+        }
+    }
+}

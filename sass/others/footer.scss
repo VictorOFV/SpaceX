@@ -1,0 +1,25 @@
+footer {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    gap: 1rem;
+    color: $copy-color;
+    padding: 1rem;
+    font-size: .75rem;
+
+    p {
+        margin: 0;
+        color: $copy-color;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+            color: $link-hover-color;
+        }
+    }
+}

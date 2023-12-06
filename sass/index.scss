@@ -1,9 +1,15 @@
 // Variables
 @import "./variables/colors.scss";
 
+// Others
+@import "./others/header.scss";
+@import "./others/footer.scss";
+
 // Pages
 @import "./pages/home.scss";
 @import "./pages/falcon9.scss";
 @import "./pages/humanFlight.scss";
 
 // Responsives
+
+@import "./responsives/header.scss"
