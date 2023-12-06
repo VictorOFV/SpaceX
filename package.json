@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "sass sass/index.scss public/styles/index.css --style compressed",
-    "dev": "sass --watch sass/index.scss public/styles/index.css"
+    "build": "sass sass/index.scss styles/index.css --style compressed",
+    "dev": "sass --watch sass/index.scss styles/index.css"
   },
   "repository": {
     "type": "git",
