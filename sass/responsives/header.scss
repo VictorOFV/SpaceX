@@ -9,9 +9,9 @@
         }
 
         .links-navbar {
-            margin-top: 2.5rem;
-            justify-content: center;
-            flex-wrap: wrap;
+            margin-top: 2rem;
+            gap: 1rem;
+            flex-direction: column;
         }
     }
 }
@@ -20,6 +20,7 @@
     header {
         .logo-header {
             width: 10rem;
+            
         }
     }
 }
