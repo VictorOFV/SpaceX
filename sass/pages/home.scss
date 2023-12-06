@@ -8,6 +8,7 @@
     .section_hero {
         background-image: url("../images/home/01.jpg");
         background-size: cover;
+        background-position: center;
         height: 100vh;
     }
 
@@ -34,19 +35,22 @@
 
     .section_hero2 {
         background-image: url("../images/home/03.jpg");
-        height: 100vh;
+        background-position: center;
         background-size: cover;
+        height: 100vh;
     }
 
     .section_hero3 {
         background-image: url("../images/home/02.gif");
-        height: 100vh;
+        background-position: center;
         background-size: cover;
+        height: 100vh;
     }
 
     .section_hero4 {
         background-image: url("../images/home/04.jpg");
-        height: 100vh;
+        background-position: center;
         background-size: cover;
+        height: 100vh;
     }
 }
