@@ -1,0 +1,66 @@
+.human-flight {
+
+    .container-hero {
+        height: 100vh;
+
+        .hero_title {
+            font-size: 7rem;
+        }
+
+        .hero_img{
+            max-width: 12rem
+        }
+    }
+
+    .section_contact {
+        background-color: #000;
+        height: 15rem;
+        
+        .info_contact {
+            width: 45%;
+
+            p {
+                color: $table-color;
+            }
+        }
+    }
+
+    .card-container {
+        h2 { 
+            margin-top: 1.5rem;
+            font-size: 4rem;
+        }
+    }
+
+    .card_right {
+        margin-right: 12rem
+    }
+
+    .card_left {
+        margin-left: 12rem
+    }
+    
+
+    button {
+        @include button()
+    }
+
+    .section_hero {
+        @include background-section("../images/humanFlight/01.jpg");
+    }
+    .section_hero2 {
+        @include background-section("../images/humanFlight/02.jpg");
+    }
+
+    .section_hero3 {
+        @include background-section("../images/humanFlight/03.jpg");
+    }
+
+    .section_hero4 {
+        @include background-section("../images/humanFlight/04.jpg");
+    }
+
+    .section_hero5 {
+        @include background-section("../images/humanFlight/05.jpg");
+    }
+}

@@ -1,25 +1,11 @@
-* {
-    color: #fff;
-    margin: 0;
-    font-family: "Rubik";
-}
-
 .home {
-    .section_hero {
-        background-image: url("../images/home/01.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-    }
 
     .container-info {
         margin-top: 13rem;
     }
 
     button {
-        padding: 1rem 2.5rem;
-        border-width: 2px;
-        margin-top: 4rem;
+        @include button()
     }
 
     .arrow-container {
@@ -33,24 +19,20 @@
         }
     }
 
+    .section_hero {
+        @include background-section("../images/home/01.jpg")
+    }
+
     .section_hero2 {
-        background-image: url("../images/home/03.jpg");
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
+        @include background-section("../images/home/03.jpg")
     }
 
     .section_hero3 {
-        background-image: url("../images/home/02.gif");
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
+        @include background-section("../images/home/02.gif")
     }
 
     .section_hero4 {
-        background-image: url("../images/home/04.jpg");
-        background-position: center;
-        background-size: cover;
-        height: 100vh;
+        @include background-section("../images/home/04.jpg")
+
     }
 }

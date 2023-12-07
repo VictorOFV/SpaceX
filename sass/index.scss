@@ -1,5 +1,14 @@
+* {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+
 // Variables
 @import "./variables/colors.scss";
+@import "./variables/mixins.scss";
 
 // Others
 @import "./others/header.scss";
@@ -11,5 +20,4 @@
 @import "./pages/humanFlight.scss";
 
 // Responsives
-
-@import "./responsives/header.scss"
+@import "./responsives/header.scss";

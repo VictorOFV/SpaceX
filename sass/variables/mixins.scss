@@ -1,0 +1,12 @@
+@mixin background-section($background) {
+    background-image: url($background);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+@mixin button() {
+    padding: 1rem 2.5rem;
+    border-width: 2px;
+    margin-top: 2rem;
+}
