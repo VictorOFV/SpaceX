@@ -24,7 +24,7 @@
             }
         }
     }
-
+    
     .card-container {
         h2 { 
             margin-top: 1.5rem;
@@ -42,6 +42,23 @@
     
     button {
         @include button()
+    }
+
+    .section_more {
+        background-color: #000;
+        height: 100vh;
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        button {
+            margin-top: 0;
+            width: 18rem;
+        }
     }
 
     .section_hero {
