@@ -11,7 +11,7 @@
                 width: 100%;
             }
         }
-     }
+    }
 }
 
 @media (max-width: 940px) {
@@ -29,7 +29,7 @@
                 }
             }
         }
-     }
+    }
 }
 
 @media (max-width: 690px) {
@@ -49,7 +49,6 @@
         }
 
         .card-container {
-
             div {
                 width: 80%;
 
@@ -59,11 +58,12 @@
             }
         }
 
-        .card-right, .card-left {
-            justify-content: center;
+        .card-right,
+        .card-left {
+            justify-content: right;
             padding: 0;
         }
-     }
+    }
 }
 
 @media (max-width: 380px) {
@@ -90,6 +90,30 @@
 
                 p {
                     font-size: .9rem;
+                }
+
+                button {
+                    padding: .8rem 1.5rem;
+                    margin-top: 1.5rem;
+                    font-size: .8rem;
+                    margin: 0;
+                }
+            }
+        }
+
+        .section_more {
+            p {
+                font-size: 1rem !important;
+            }
+
+            .buttons {
+                button {
+                    padding: .8rem 1.5rem;
+                    margin-top: 1.5rem;
+                    font-size: .8rem;
+                    width: 14rem;
+                    gap: 0;
+                    margin-top: 0 !important;
                 }
             }
         }
