@@ -1,10 +1,13 @@
 .human-flight {
 
+    background-color: #000;
+
     .container-hero {
-        height: 100vh;
+        min-height: 100vh;
 
         .hero_title {
             font-size: 7rem;
+            text-wrap: nowrap;
         }
 
         .hero_img{
@@ -14,7 +17,7 @@
 
     .section_contact {
         background-color: #000;
-        height: 15rem;
+        min-height: 15rem;
         
         .info_contact {
             width: 45%;
@@ -26,20 +29,29 @@
     }
     
     .card-container {
+
         h2 { 
             margin-top: 1.5rem;
             font-size: 4rem;
         }
+
     }
 
-    .card_right {
-        margin-right: 12rem
+    .card-right, .card-left {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 3rem;
     }
 
-    .card_left {
-        margin-left: 12rem
+    .card-left {
+        justify-content: start;
     }
-    
+
+    .card-right {
+        justify-content: end;
+    }
+
     button {
         @include button()
     }
@@ -47,6 +59,9 @@
     .section_more {
         background-color: #000;
         height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         .buttons {
             display: flex;
