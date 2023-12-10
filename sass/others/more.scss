@@ -1,0 +1,20 @@
+.section_more {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    button {
+        @include button();
+        margin-top: 0;
+        width: 18rem;
+    }
+}

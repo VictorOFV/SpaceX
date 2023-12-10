@@ -56,26 +56,6 @@
         @include button()
     }
 
-    .section_more {
-        background-color: #000;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        .buttons {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            flex-wrap: wrap;
-        }
-
-        button {
-            margin-top: 0;
-            width: 18rem;
-        }
-    }
-
     .section_hero {
         @include background-section("../images/humanFlight/01.jpg");
     }
