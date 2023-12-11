@@ -5,16 +5,19 @@
         .hero_texts {
             height: 100vh;
             display: flex;
+            padding: 1rem;
             flex-direction: column;
             align-items: center;
             justify-content: center;
 
             .hero_title {
-                font-size: 6rem
+                font-size: 6rem;
+                text-wrap: nowrap;
             }
 
             .hero_text {
                 font-size: 1.5rem;
+                text-align: center;
             }
 
             .hero_img {
@@ -35,9 +38,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding: 1rem;
+            text-align: center;
 
             h2 {
-                font-size: 5.5rem
+                font-size: 4.5rem
             }
 
             p { 
@@ -47,13 +52,12 @@
     }
     
     .section_hero2 {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 1.5rem;
         .hero2_text-container {
             max-width: 40rem;
-            min-width: 20rem;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            padding: 1.5rem;
             margin-left: 15rem;
 
             .hero2_text {
@@ -84,13 +88,13 @@
     }
 
     .container-carousel-info, .hero3_info {
-        max-width: 30rem;
         height: 100vh;
         display: flex;
         align-items: center;
-        margin-left: 20rem;
+        margin-left: 15rem;
 
         .infos {
+            max-width: 30rem;
             table {
                 th, td {
                     background-color: transparent;

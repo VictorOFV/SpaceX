@@ -1,0 +1,136 @@
+@media (max-width: 1024px) {
+    .falcon9 {
+
+        .container-carousel-info,
+        .hero3_info,
+        .section_hero2 .hero2_text-container {
+            margin-left: 8rem;
+        }
+    }
+}
+
+@media (max-width: 875px) {
+    .falcon9 {
+        .section_hero {
+            .hero_texts {
+                .hero_title {
+                    font-size: 5rem;
+                }
+
+                .hero_text {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+
+        .section_launches {
+            flex-wrap: wrap;
+
+            .container-launches {
+                h2 {
+                    font-size: 3.4rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .section_hero2 {
+            justify-content: center;
+
+            .hero2_text-container {
+                margin-left: 0;
+                text-align: inherit;
+            }
+        }
+
+        .container-carousel-info,
+        .hero3_info {
+            justify-content: center;
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 570px) {
+    .falcon9 {
+
+        .section_hero {
+            .hero_texts {
+                .hero_title {
+                    font-size: 3.5rem;
+                }
+
+                .hero_text {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .section_hero2 {
+            .hero2_text-container {
+                .hero2_text {
+                    font-size: 1.1rem;
+                    line-height: 1.7;
+                }
+            }
+        }
+
+        .container-carousel-info,
+        .hero3_info {
+            .infos {
+                width: 18rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .falcon9 {
+        .section_hero {
+            .hero_texts {
+                .hero_title {
+                    font-size: 2.8rem;
+                }
+
+                .hero_text {
+                    font-size: .85rem;
+                }
+
+                .hero_img {
+                    width: 8rem;
+                }
+            }
+        }
+
+        .section_launches {
+            .container-launches {
+                h2 {
+                    font-size: 2.8rem;
+                }
+            }
+        }
+
+        .container-carousel-info, .hero3_info {
+            .infos {
+                width: 12rem;
+
+                h2 {
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    font-size: .8rem;
+                }
+
+                table {
+                    td, th {
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+    }
+}
