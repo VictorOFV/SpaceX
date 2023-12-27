@@ -9,7 +9,9 @@ Welcome to my SpaceX website clone project, developed using SASS and Bootstrap. 
 
 On the main page, I prioritized Bootstrap with minimal CSS styling. On the Falcon 9 page, I took a balanced approach between styling and Bootstrap. Finally, on the Human Flight page, I focused more on CSS. 
 
-It's worth noting that the project's structure was not optimized for easy maintenance, as the primary goal was to experiment with various ways of building a website using Bootstrap and SASS.## Installation
+It's worth noting that the project's structure was not optimized for easy maintenance, as the primary goal was to experiment with various ways of building a website using Bootstrap and SASS.
+
+## Installation
 
  Clone the project
 ~~~bash  
