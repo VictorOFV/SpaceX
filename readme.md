@@ -3,7 +3,7 @@
   <img src="https://imgur.com/UgMoLr8.png" alt="Logo">
 </p>
 
-# <center>SpaceX - Clone</center>
+# SpaceX - Clone
 
 Welcome to my SpaceX website clone project, developed using SASS and Bootstrap. This project is solely for educational purposes, exploring different approaches across the three pages. 
 
@@ -38,3 +38,9 @@ Build the application
 
 ## Technologies
 ![Badge 0](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Badge 1](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![Badge 2](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+
+## Demo
+
+You can see a preview of the project by [clicking here](https://spacex-ten-tawny.vercel.app/) or on the gif below 
+
+[<img src="https://imgur.com/xJSFAfY.gif" alt="Demo">](https://spacex-ten-tawny.vercel.app/)
