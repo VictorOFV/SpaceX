@@ -1,0 +1,16 @@
+@media(max-width: 400px) {
+    .home {
+        .arrow-container {
+            img {
+                max-width: 8rem;
+            }
+        }
+
+        .container-info {
+            button {
+                padding: .8rem 1.5rem;
+                font-size: .8rem;
+            }
+        }
+    }
+}

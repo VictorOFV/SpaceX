@@ -56,6 +56,10 @@
         @include button()
     }
 
+    .button-more {
+        margin-top: 0
+    }
+
     .section_hero {
         @include background-section("../images/humanFlight/01.jpg");
     }

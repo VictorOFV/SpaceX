@@ -2,6 +2,10 @@
 
     .container-info {
         margin-top: 13rem;
+
+        p {
+            max-width: 40rem;
+        }
     }
 
     button {
@@ -33,6 +37,5 @@
 
     .section_hero4 {
         @include background-section("../images/home/04.jpg")
-
     }
 }
