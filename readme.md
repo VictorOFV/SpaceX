@@ -41,6 +41,6 @@ Build the application
 
 ## Demo
 
-You can see a preview of the project by [clicking here](https://spacex-ten-tawny.vercel.app/) or on the gif below 
+You can see a preview of the project by <a target="_blank" href="https://spacex-ten-tawny.vercel.app/">clicking here</a> or on the gif below
 
-[<img src="https://imgur.com/xJSFAfY.gif" alt="Demo">](https://spacex-ten-tawny.vercel.app/)
+<img src="https://imgur.com/xJSFAfY.gif" alt="Demo">
